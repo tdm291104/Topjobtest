@@ -1,0 +1,152 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .left-side {
+    flex: 2;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .company-info {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .company-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .job-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .job-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .location {
+    font-size: 1rem;
+  }
+  
+  .company-name {
+    font-size: 1.1rem;
+  }
+  
+  .created-at {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .safety-icon {
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
+  .details {
+    margin-top: 20px;
+  }
+  
+  .details-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .detail-item {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .label {
+    font-size: 0.9rem;
+  }
+  
+  .value {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .button {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .content-section {
+    margin-top: 20px;
+  }
+  
+  .section-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .description,
+  .requirement,
+  .company-info,
+  .about {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  .apply-button {
+    margin-top: 20px;
+  }
+  
+  .apply-now-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .right-side {
+    flex: 1;
+  }
+  
+  .similar-jobs-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .similar-jobs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  

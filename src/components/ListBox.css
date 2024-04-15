@@ -1,0 +1,59 @@
+.list-box-container {
+    width: 8rem;
+  }
+  
+  .list-box-button {
+    position: relative;
+    width: 100%;
+    cursor: default;
+    border-radius: 0.375rem;
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+    text-align: left;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+    outline: none;
+  }
+  
+  .list-box-button:hover {
+    background-color: rgba(29, 79, 216, 0.08);
+  }
+  
+  .list-box-options {
+    position: absolute;
+    max-height: 60px;
+    width: 100%;
+    overflow-y: auto;
+    background-color: #ffffff;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-radius: 0.375rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+    outline: none;
+  }
+  
+  .list-box-option {
+    position: relative;
+    cursor: default;
+    user-select: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .list-box-option:hover,
+  .list-box-option[aria-selected="true"] {
+    background-color: rgba(29, 78, 216, 0.08);
+  }
+  
+  .list-box-option[selected] {
+    font-weight: 600;
+  }
+  
+  .list-box-check {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 0.75rem;
+    color: #1d4ed8;
+  }
+  

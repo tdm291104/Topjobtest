@@ -1,0 +1,71 @@
+.job-types-container {
+    width: 100%;
+  }
+  
+  .listbox-button {
+    width: 100%;
+    padding: 0.625rem 0.75rem;
+    background-color: white;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #4a5568;
+    cursor: default;
+    outline: none;
+  }
+  
+  .chevron-icon {
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0.75rem;
+    align-items: center;
+    pointer-events: none;
+  }
+  
+  .chevron {
+    color: #a0aec0;
+  }
+  
+  .listbox-options {
+    position: absolute;
+    max-height: 14.375rem;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+    z-index: 50;
+    padding: 0.25rem 0;
+    font-size: 0.875rem;
+    color: #4a5568;
+  }
+  
+  .listbox-option {
+    padding: 0.5rem 1rem;
+    cursor: default;
+  }
+  
+  .active-option {
+    background-color: #edf2f7;
+  }
+  
+  .inactive-option {
+    background-color: white;
+  }
+  
+  .selected-icon {
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    padding-left: 0.75rem;
+  }
+  
+  .check-icon {
+    color: #2d3748;
+  }
+  

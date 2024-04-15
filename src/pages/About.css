@@ -1,0 +1,44 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+    align-items: center;
+    padding: 1.25rem;
+  }
+  
+  .about-text {
+    width: 100%;
+    max-width: 66.666667%;
+  }
+  
+  .about-title {
+    font-size: 1.875rem;
+    color: #2563eb;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .about-paragraph {
+    text-align: justify;
+    line-height: 1.75rem;
+  }
+  
+  .about-image {
+    width: auto;
+    height: 300px;
+  }
+  
+  .about-description {
+    padding: 0 1.25rem;
+    text-align: justify;
+    line-height: 1.75rem;
+  }
+  

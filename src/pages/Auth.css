@@ -1,0 +1,8 @@
+.auth-container {
+    width: 100%;
+  }
+  
+  .auth-image {
+    object-fit: contain;
+  }
+  

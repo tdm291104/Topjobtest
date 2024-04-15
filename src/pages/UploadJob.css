@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .left-side {
+    flex: 2;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .label {
+    font-size: 0.9rem;
+  }
+  
+  .job-type {
+    width: 50%;
+  }
+  
+  .textarea-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .right-side {
+    flex: 1;
+  }
+  
+  .recent-job-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .recent-job-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  

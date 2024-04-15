@@ -1,0 +1,171 @@
+.container {
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-title {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-button,
+  .upload-button {
+    background-color: #1d4fd862;
+    border-color: #1d4fd8;
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover,
+  .upload-button:hover {
+    background-color: #1d4fd8;
+  }
+  
+  .company-info {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .company-info-text {
+    color: #555;
+  }
+  
+  .job-post-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .job-post-count {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .job-post-text {
+    color: #1d4fd8;
+  }
+  
+  .job-list {
+    margin-top: 20px;
+  }
+  
+  .job-list-title {
+    color: #1d4fd8;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .job-list-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .dialog-container {
+    z-index: 50;
+  }
+  
+  .dialog-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+  
+  .dialog-content {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dialog-content-inner {
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .dialog-title {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .form-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-group-item {
+    width: 50%;
+  }
+  
+  .textarea-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .textarea-label {
+    color: #555;
+  }
+  
+  .textarea-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .submit-button {
+    background-color: #1d4fd862;
+    border-color: #1d4fd8;
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #1d4fd8;
+  }
+  

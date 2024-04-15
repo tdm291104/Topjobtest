@@ -1,0 +1,96 @@
+.sign-up-dialog {
+    width: 100%;
+    max-width: 30rem;
+    transform: none !important;
+  }
+  
+  .dialog-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .account-type-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .account-type-button {
+    flex: 1;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  .account-type-button.active {
+    background-color: #1d4fd862;
+    color: #0d2e4a;
+    font-weight: 600;
+  }
+  
+  .name-inputs {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .password-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .error-message {
+    color: #dc2626;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+  }
+  
+  .submit-button {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .submit-button-style {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.375rem;
+    background-color: #2563eb;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button-style:hover {
+    background-color: #1e40af;
+  }
+  
+  .toggle-account-type {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .toggle-account-text {
+    font-size: 0.875rem;
+    color: #4b5563;
+  }
+  
+  .toggle-account-link {
+    color: #2563eb;
+    cursor: pointer;
+    margin-left: 0.25rem;
+  }
+  
+  .toggle-account-link:hover {
+    font-weight: 600;
+  }
+  
